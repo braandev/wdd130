@@ -1,0 +1,19 @@
+General Design
+The content is custom built with valid, semantic, and contemporary HTML and CSS.
+The design is consistent throughout the site providing ease of navigation, and supporting positive user experiences.
+
+Page Specifications
+📄 Home – The home page will contain some attention grabbing information including company information, call(s) to action, appealing graphics, and other items.
+📄 About Us – This page provides an overview, information about its owners and staff, and basic trip summaries.
+📄 Trips – This page provides detailed information and examples of the different adventures or trips that the company offerings including available equipment.
+📄 Contact Us – Provides contact information and a form to obtain user input including questions and comments.
+
+Developmental Specifications
+These specifications are driven by the learning outcomes of the course and by specific web design and development concept objectives that are presented in the lessons. Each week as new concepts are introduced, new content requirements will be added to the project. Here are the general, objective-based specifications:
+
+- The course's development standards are met.
+- The site is structured with valid, standards-based, semantic markup that is responsive and does not include styling.
+- The site is styled and presented with valid, standards-based CSS.
+- The site meets this listed functional, content, and behavior specifications.
+- The design ensures that the site meets user expectations by providing a positive experience through adhering to standard design   principles and utilizing easy-to-use interfaces.
+- The published site meets the intent of mastery the course learning outcomes.

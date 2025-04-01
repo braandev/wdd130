@@ -1,0 +1,211 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/************* HEADER **************/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2; 
+}
+
+.logo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 60px;
+    
+}
+
+.logo img{
+    width:100%;
+    height: 100px;
+}
+
+.navs{
+    padding-right: 100px;
+}
+
+nav a{
+    margin-left: 60px;
+}
+
+a{
+    font-family: "Peralta", serif;
+    font-weight: 400;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:tomato;
+}
+
+
+nav a{
+    margin-left: 60px;
+}
+
+a{
+    font-family: "Peralta", serif;
+    font-weight: 400;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+
+
+/************* MAIN **************/
+
+/************* HERO SECTION **************/
+
+.hero{
+    width: 100%;
+    position: relative;
+    
+}
+
+.hero h1{
+    position: absolute;
+    left:45%;
+    top: 10%;
+    color: #fff;
+}
+
+
+.hero .under-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 60%;
+}
+
+
+article {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+
+article p {
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.image-article{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+
+
+/************* HISTORY SECTION **************/
+.history {
+    text-align: center;
+    padding: 20px;
+}
+.history h2{
+    font-family: "Peralta", serif;
+    font-size: x-large;
+}
+.history-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+.history-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.history-column img {
+    max-width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+/************* ADVENTURE SECTION **************/
+
+.adventure {
+    text-align: center;
+    padding: 20px;
+   background-color: #E6A827 ;
+    margin-top: 20px;
+}
+.adventure h2{
+    font-family:"Peralta", serif;
+}
+.adventure-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.adventure-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adventure-item img {
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+}
+
+/************* FOOTER **************/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #733D2C;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.footer-text {
+    margin: 0 auto;
+    text-align: center;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+.social-icons img:hover {
+    transform: scale(1.2);
+}
