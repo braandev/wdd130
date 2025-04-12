@@ -319,9 +319,11 @@ fieldset {
     font-size: 14px;
 }
 
+#boton{
+    background-color: #004482;
+}
 .submit-btn {
     padding: 15px;
-    background-color: #0077cc;
     color: white;
     font-size: 18px;
     border: none;
