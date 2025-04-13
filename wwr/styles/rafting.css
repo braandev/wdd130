@@ -73,6 +73,7 @@ header {
 }
 
 
+
 .hero .under-img{
     display: block;
     width: 100%;
@@ -94,7 +95,7 @@ article {
 }
 
 
-article p {
+article h2 {
     color: whitesmoke;
     text-align: justify;
 }
